@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">MOON</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">intro</a></li>
+          <li><a href="#grid-one">grid</a></li>
+          <li><a href="#gallery">gallery</a></li>
+          <li><a href="#pricing">pricing</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>What is creativity?</h2>
+        <p>creativity is one of those traits that people seem to have an intrinsic understanding of, but if you actually ask them to define it, they get tripped up. The more I researched this article, the more I realized creativity is an incredibly nuanced phenomenon.</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/undraw_lost_online_re_upmy.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>news coverage and some
+        surprises</h2>
+      <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some
+        surprises at the machine’s performance. This post details some background information on the experience of
+        porting Firefox to run natively on these CPUs.</p>33
+      <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to
+        know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+      <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and
+        discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various
+        other improvements that are in the pipeline.</p>
+    </div>
+  </section>
+
+
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">My Grid</h2>
+      <p class="grid-description">I hope I’m not being to presumptuous when I say everyone wants to develop new skills or grow their abilities. (Who wouldn’t want to be a faster runner or a better poker player?).</p>
+
+      <div class="grid">
+        <article>
+          <h3>Teste 1</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+        <article>
+          <h3>Teste 2</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+        <article>
+          <h3>Teste 2</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Gallery</h2>
+      <p class="grid-description">Creativity isn’t a magical gift bestowed to just a few lucky individuals, it’s a skill that you can hone and develop. The trick is figuring out how to flex your creativity muscles.</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?k=1" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?s=2" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?v=4" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?o=5" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?l=6" alt="random image from unsplash" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Pricing</h2>
+      <p>Creativity has only been a thing for the past 60-80 years or so.
+        “But wait,” you say, “what about all those amazing artists and inventors of yesteryear. Are you telling me you don’t think Mark Twain and Sir Isaac Newton weren’t creative? Preposterous!”
+        I am certainly not one to dis the fathers of Tom Sawyer and gravity. What I’m saying is that the concept of creativity as we understand it—even though it seems so ubiquitous—wasn’t really part of the popular lexicon until midway through the last century:</p>
+      <p>In many ancient cultures, ideas or advancements that we would attribute to an individual’s creativity were deemed “discoveries.” Even artwork was seen as an imitation of nature rather than a form of creation.</p>
+
+      <div class="responsive-table">
+        <table>
+          <caption>table</caption>
+
+          <thead>
+            <tr>
+              <th>Title 1</th>
+              <th>Title 2</th>
+              <th>Title 3</th>
+              <th>Title 4</th>
+              <th>Title 5</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td> </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Entre em contato:</h2>
+        <p>Você tem outras dúvidas? Você pode enviar um e-mail ou entrar em contato com o nosso em (00) 00000-0000.</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/final.svg" alt="Ilustração de mulher sentada segurando corações.">
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Responderemos o mais rápido possível :)</legend>
+
+          <div class="form-group">
+            <label for="first-name">Nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Your name">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Your e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Messagem</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Send message</button>
+          </div>
+        </fieldset>
+      </div>  
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer white-bg">
+    <p>Feito com <span class="heart">❤</span> por Letícia Maria</p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
